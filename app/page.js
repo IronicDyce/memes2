@@ -33,7 +33,7 @@ const siteConfig = {
   ],
   communityTitle: "Join the 🍝 Cult",
   communityDescription: "Hang with the finest assets in Web3.",
-  twitterLink: "https://x.com/i/communities/1921887080747303298",
+  twitterLink: "https://x.com/i/communities/1921821175807934848",
   telegramLink: "#",
   communityCardTitle: "$2FA X Community",
   communityCardText: "Get unfiltered updates, share memes, and interact with a community of degenerates.",
