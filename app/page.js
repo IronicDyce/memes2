@@ -1,44 +1,44 @@
 import React from "react";
 
 const siteConfig = {
-  siteName: "2 Fine Asses",
-  ctaText: "Buy $2FA",
-  headline: "2 Fine Asses 🍑",
-  description: "Buy and upgrade to $2FA because 1FA is too flat.\nHackers fear curves they can't bypass.",
+  siteName: "Big Titty Coin",
+  ctaText: "Buy $BTC",
+  headline: "Big Titty Coin",
+  description: "Big Titties: The Original Attention Economy. $BTC just formalized it.",
   features: [
     {
-      title: "2FA",
-      text: "Because everything deserves a double cheek check"
+      title: "Community-Backed, Bra-Strapped",
+      text: "100% driven by the people. No VC funding, just vibes and verified degenerates. Think of it as Web3 with milk-based governance."
     },
     {
-      title: "Bare Markets",
-      text: "No bear markets here — just bare ones."
+      title: "Bridging the Gap Between DeFi and D-Cups",
+      text: "BTC is pioneering a new standard: Web3.0DD — decentralized degeneracy with double-D validation."
     },
     {
-      title: "Twerkonomics 101",
-      text: "Demand rises when the supply shakes."
+      title: "A Boob-Based Economy",
+      text: "Just Makes Sense. Satoshi would’ve loved this."
     },
     {
-      title: "Booty-Backed Economics",
-      text: "It's simple. 1) No ass? No gas. 2) No cheeks? No charts."
+      title: "Roadmap? She Has Curves, Not Directions",
+      text: "Who needs a utility roadmap when we have personality, plot, and a loyal army of internet coomers? The only thing we’re pumping is vibes (and maybe your bags)."
     },
     {
-      title: "Proof of Clap",
-      text: "We verify transactions with clap-powered consensus."
+      title: "Proof of Bounce",
+      text: "Bigger the tiddy, bigger the bounce."
     },
     {
-      title: "Ass-et Allocation",
-      text: "Diversify your portfolio. One one-third stables, one two-thirds in cheeks."
+      title: "Boobs > Banks",
+      text: "Why trust old dudes in suits when you can invest in the one thing the internet truly loves? Big Titty Coin puts the fun in fundamentally unserious finance."
     }
   ],
   communityTitle: "Join the 🍝 Cult",
-  communityDescription: "Hang with the finest assets in Web3.",
-  twitterLink: "https://x.com/i/communities/1921821175807934848",
+  communityDescription: "Hang with the finest big tiddy lovers in Web3.",
+  twitterLink: "https://x.com/i/communities/1922646036138639400",
   telegramLink: "#",
-  communityCardTitle: "$2FA X Community",
+  communityCardTitle: "$BTC X Community",
   communityCardText: "Get unfiltered updates, share memes, and interact with a community of degenerates.",
-  communityCardButton: "Get In Here 👊",
-  footerText: "© 2025 2 Fine Assets. Built different. Not financial advice — just fine."
+  communityCardButton: "Get yer tits in here 👊",
+  footerText: "© 2025 Big Titty Coin. Built different. Not financial advice — just big."
 };
 
 export default function Home() {
@@ -71,7 +71,7 @@ export default function Home() {
           {siteConfig.description}
         </p>
         <a
-          href="https://pump.fun/coin/C7Mn5Zh3wRPpdYQ2YxT9HijofoZaUkBJ83Ghm3v262FA"
+          href="https://pump.fun/coin/GWebayV1PvHjE6hM7tJAu2MqLtqPddxYWtBQDcc81XCm"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-8 inline-block bg-pink-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-pink-600 transition"
