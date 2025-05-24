@@ -97,7 +97,7 @@ export default function Home() {
         </div>
 
         <div className="mt-10 max-w-md mx-auto bg-[#1a1a3d] p-6 rounded-xl shadow-lg text-center">
-          <h3 className="text-lg font-semibold mb-2 text-pink-400">Visit the $2FA X Community</h3>
+          <h3 className="text-lg font-semibold mb-2 text-pink-400">Visit the $BTC X Community</h3>
           <p className="text-sm text-blue-100 mb-4">{siteConfig.communityCardText}</p>
           <a
             href={siteConfig.twitterLink}
