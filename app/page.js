@@ -48,7 +48,7 @@ export default function Home() {
         <div className="text-2xl font-bold text-pink-400">{siteConfig.siteName}</div>
         <nav className="flex space-x-6">
 
-          <a href="https://pump.fun/coin/C7Mn5Zh3wRPpdYQ2YxT9HijofoZaUkBJ83Ghm3v262FA" target="_blank" rel="noopener noreferrer" className="bg-pink-500 text-white px-4 py-2 rounded-full font-semibold hover:bg-pink-600 transition">{siteConfig.ctaText}</a>
+          <a href="https://pump.fun/coin/GWebayV1PvHjE6hM7tJAu2MqLtqPddxYWtBQDcc81XCm" target="_blank" rel="noopener noreferrer" className="bg-pink-500 text-white px-4 py-2 rounded-full font-semibold hover:bg-pink-600 transition">{siteConfig.ctaText}</a>
         </nav>
       </header>
 
