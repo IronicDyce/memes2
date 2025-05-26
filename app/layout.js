@@ -2,7 +2,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Glory Hole Coin",
+  title: "gloryhole coin",
   description: "You don’t need to see it to feel the pump",
 };
 
