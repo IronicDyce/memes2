@@ -79,10 +79,8 @@ export default function Home() {
             href="https://pump.fun/coin/GWebayV1PvHjE6hM7tJAu2MqLtqPddxYWtBQDcc81XCm"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 rounded-full font-semibold transition"
+            className="px-4 py-2 rounded-full font-semibold transition hover:brightness-110"
             style={{ backgroundColor: colors.accent, color: colors.textPrimary }}
-            onMouseOver={(e) => (e.currentTarget.style.backgroundColor = colors.accentHover)}
-            onMouseOut={(e) => (e.currentTarget.style.backgroundColor = colors.accent)}
           >
             {siteConfig.ctaText}
           </a>
@@ -114,10 +112,8 @@ export default function Home() {
           href="https://pump.fun/coin/GWebayV1PvHjE6hM7tJAu2MqLtqPddxYWtBQDcc81XCm"
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-8 inline-block px-6 py-3 rounded-xl font-semibold transition"
+          className="mt-8 inline-block px-6 py-3 rounded-xl font-semibold transition hover:brightness-110"
           style={{ backgroundColor: colors.accent, color: colors.textPrimary }}
-          onMouseOver={(e) => (e.currentTarget.style.backgroundColor = colors.accentHover)}
-          onMouseOut={(e) => (e.currentTarget.style.backgroundColor = colors.accent)}
         >
           {siteConfig.ctaText}
         </a>
@@ -171,10 +167,8 @@ export default function Home() {
             href={siteConfig.twitterLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-4 py-2 rounded-full font-semibold transition"
+            className="inline-block px-4 py-2 rounded-full font-semibold transition hover:brightness-110"
             style={{ backgroundColor: colors.accent, color: colors.textPrimary }}
-            onMouseOver={(e) => (e.currentTarget.style.backgroundColor = colors.accentHover)}
-            onMouseOut={(e) => (e.currentTarget.style.backgroundColor = colors.accent)}
           >
             {siteConfig.communityCardButton}
           </a>
