@@ -2,8 +2,8 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Big Titty Coin",
-  description: "Big Titties: The Original Attention Economy. $BTC just formalized it.",
+  title: "Glory Hole Coin",
+  description: "You don’t need to see it to feel the pump",
 };
 
 export default function RootLayout({ children }) {
