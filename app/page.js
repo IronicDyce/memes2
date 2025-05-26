@@ -48,7 +48,7 @@ const siteConfig = {
   ],
   communityTitle: "Join the gloryhole",
   communityDescription: "",
-  twitterLink: "https://x.com/i/communities/1922646036138639400",
+  twitterLink: "https://x.com/i/communities/1927108211296948640",
   telegramLink: "#",
   communityCardTitle: "$gloryhole X Community",
   communityCardText: "Get unfiltered updates, share memes, and interact with a community of degenerates.",
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
         <nav className="flex space-x-6">
           <a
-            href="https://pump.fun/coin/GWebayV1PvHjE6hM7tJAu2MqLtqPddxYWtBQDcc81XCm"
+            href="https://pump.fun/coin/75DVDpFoXNnmk7gUhbne2kAsx2qFPFmeUwrDcGzH9drF"
             target="_blank"
             rel="noopener noreferrer"
             className="px-4 py-2 rounded-full font-semibold transition hover:brightness-110"
