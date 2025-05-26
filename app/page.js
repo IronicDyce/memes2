@@ -1,10 +1,25 @@
 import React from "react";
 
 const siteConfig = {
-  siteName: "Big Titty Coin",
-  ctaText: "Buy $BTC",
-  headline: "Big Titty Coin",
-  description: "Big Titties: The Original Attention Economy. $BTC just formalized it.",
+  siteName: "gloryhole Coin",
+  ctaText: "Buy $gloryhole",
+  headline: "gloryhole coin",
+  description:
+    "You don’t need to see it to feel the pump",
+  colors: {
+    background: "#ff7a00",
+    gradientFrom: "#ff7a00",
+    gradientVia: "#b34700",
+    gradientTo: "#000000",
+    textPrimary: "#ffffff",
+    accent: "#ff7a00",
+    accentHover: "#cc6300",
+    title: "#ffe0b2",
+    subtitle: "#ffd699",
+    cardBackground: "#1a1a1a",
+    cardText: "#f0f0f0",
+    border: "#333333"
+  },
   features: [
     {
       title: "Community-Backed, Bra-Strapped",
@@ -42,13 +57,35 @@ const siteConfig = {
 };
 
 export default function Home() {
-  return (
-    <div className="bg-gradient-to-b from-[#1f2235] via-[#0f0f23] to-[#1f2235] text-white min-h-screen font-sans relative overflow-hidden">
-      <header className="flex justify-between items-center p-6 border-b border-gray-800 z-10 relative">
-        <div className="text-2xl font-bold text-pink-400">{siteConfig.siteName}</div>
-        <nav className="flex space-x-6">
+  const colors = siteConfig.colors;
 
-          <a href="https://pump.fun/coin/GWebayV1PvHjE6hM7tJAu2MqLtqPddxYWtBQDcc81XCm" target="_blank" rel="noopener noreferrer" className="bg-pink-500 text-white px-4 py-2 rounded-full font-semibold hover:bg-pink-600 transition">{siteConfig.ctaText}</a>
+  return (
+    <div
+      className="min-h-screen font-sans relative overflow-hidden"
+      style={{
+        background: `linear-gradient(to bottom, ${colors.gradientFrom}, ${colors.gradientVia}, ${colors.gradientTo})`,
+        color: colors.textPrimary
+      }}
+    >
+      <header
+        className="flex justify-between items-center p-6 border-b z-10 relative"
+        style={{ borderColor: colors.border }}
+      >
+        <div className="text-2xl font-bold" style={{ color: colors.accent }}>
+          {siteConfig.siteName}
+        </div>
+        <nav className="flex space-x-6">
+          <a
+            href="https://pump.fun/coin/GWebayV1PvHjE6hM7tJAu2MqLtqPddxYWtBQDcc81XCm"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 rounded-full font-semibold transition"
+            style={{ backgroundColor: colors.accent, color: colors.textPrimary }}
+            onMouseOver={(e) => (e.currentTarget.style.backgroundColor = colors.accentHover)}
+            onMouseOut={(e) => (e.currentTarget.style.backgroundColor = colors.accent)}
+          >
+            {siteConfig.ctaText}
+          </a>
         </nav>
       </header>
 
@@ -59,22 +96,28 @@ export default function Home() {
             alt="$2FA Background"
             className="w-[1500px] h-[500px] object-cover mx-auto"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#0f0f23]" />
+          <div
+            className="absolute inset-0"
+            style={{ background: `linear-gradient(to bottom, transparent, ${colors.gradientTo})` }}
+          />
         </div>
       </section>
 
       <section className="text-center py-10 z-10 relative">
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-4 text-blue-300">
+        <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-4" style={{ color: colors.title }}>
           {siteConfig.headline}
         </h1>
-        <p className="text-lg text-pink-200 max-w-2xl mx-auto whitespace-pre-line">
+        <p className="text-lg max-w-2xl mx-auto whitespace-pre-line" style={{ color: colors.subtitle }}>
           {siteConfig.description}
         </p>
         <a
           href="https://pump.fun/coin/GWebayV1PvHjE6hM7tJAu2MqLtqPddxYWtBQDcc81XCm"
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-8 inline-block bg-pink-500 text-white px-6 py-3 rounded-xl font-semibold hover:bg-pink-600 transition"
+          className="mt-8 inline-block px-6 py-3 rounded-xl font-semibold transition"
+          style={{ backgroundColor: colors.accent, color: colors.textPrimary }}
+          onMouseOver={(e) => (e.currentTarget.style.backgroundColor = colors.accentHover)}
+          onMouseOut={(e) => (e.currentTarget.style.backgroundColor = colors.accent)}
         >
           {siteConfig.ctaText}
         </a>
@@ -82,35 +125,66 @@ export default function Home() {
 
       <section className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-[1500px] mx-auto px-6 py-12 z-10 relative">
         {siteConfig.features.map((feature, index) => (
-          <div key={index} className="bg-[#1a1a3d] p-6 rounded-xl shadow-xl">
-            <h3 className="text-xl font-bold mb-2 text-pink-400">{feature.title}</h3>
-            <p className="text-blue-100">{feature.text}</p>
+          <div
+            key={index}
+            className="p-6 rounded-xl shadow-xl"
+            style={{ backgroundColor: colors.cardBackground }}
+          >
+            <h3 className="text-xl font-bold mb-2" style={{ color: colors.accent }}>
+              {feature.title}
+            </h3>
+            <p style={{ color: colors.cardText }}>{feature.text}</p>
           </div>
         ))}
       </section>
 
       <section className="text-center py-12 z-10 relative">
-        <h2 className="text-3xl font-bold mb-4 text-blue-300">{siteConfig.communityTitle}</h2>
-        <p className="text-pink-200 mb-6">{siteConfig.communityDescription}</p>
+        <h2 className="text-3xl font-bold mb-4" style={{ color: colors.title }}>
+          {siteConfig.communityTitle}
+        </h2>
+        <p className="mb-6" style={{ color: colors.subtitle }}>
+          {siteConfig.communityDescription}
+        </p>
         <div className="flex justify-center space-x-6">
-          <a href={siteConfig.twitterLink} className="hover:text-pink-400 underline" target="_blank" rel="noopener noreferrer">Join our cult →</a>
+          <a
+            href={siteConfig.twitterLink}
+            className="underline"
+            style={{ color: colors.accent }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Join our cult →
+          </a>
         </div>
 
-        <div className="mt-10 max-w-md mx-auto bg-[#1a1a3d] p-6 rounded-xl shadow-lg text-center">
-          <h3 className="text-lg font-semibold mb-2 text-pink-400">Visit the $BTC X Community</h3>
-          <p className="text-sm text-blue-100 mb-4">{siteConfig.communityCardText}</p>
+        <div
+          className="mt-10 max-w-md mx-auto p-6 rounded-xl shadow-lg text-center"
+          style={{ backgroundColor: colors.cardBackground }}
+        >
+          <h3 className="text-lg font-semibold mb-2" style={{ color: colors.accent }}>
+            Visit the $BTC X Community
+          </h3>
+          <p className="text-sm mb-4" style={{ color: colors.cardText }}>
+            {siteConfig.communityCardText}
+          </p>
           <a
             href={siteConfig.twitterLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-pink-500 text-white px-4 py-2 rounded-full font-semibold hover:bg-pink-600 transition"
+            className="inline-block px-4 py-2 rounded-full font-semibold transition"
+            style={{ backgroundColor: colors.accent, color: colors.textPrimary }}
+            onMouseOver={(e) => (e.currentTarget.style.backgroundColor = colors.accentHover)}
+            onMouseOut={(e) => (e.currentTarget.style.backgroundColor = colors.accent)}
           >
             {siteConfig.communityCardButton}
           </a>
         </div>
       </section>
 
-      <footer className="p-6 text-center text-sm text-blue-300 border-t border-gray-800 z-10 relative">
+      <footer
+        className="p-6 text-center text-sm border-t z-10 relative"
+        style={{ color: colors.title, borderColor: colors.border }}
+      >
         <p>{siteConfig.footerText}</p>
       </footer>
     </div>
