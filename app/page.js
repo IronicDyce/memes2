@@ -39,11 +39,11 @@ const siteConfig = {
     },
     {
       title: "No Utility. Just Pleasure.",
-      text: "Why pretend? GHC isn’t trying to change the world — it’s here to distract you from it. Finally, a token that gets you off and pays you back."
+      text: "Why pretend? gloryhole isn’t trying to change the world — it’s here to distract you from it. Finally, a token that gets you off and pays you back."
     },
     {
       title: "Tokenomics with a Happy Ending",
-      text: "Whether you're a holder, a dip-buyer, or a pump-sprinter, GHC rewards everyone who shows up and goes deep."
+      text: "Whether you're a holder, a dip-buyer, or a pump-sprinter, gloryhole rewards everyone who shows up and goes deep."
     }
   ],
   communityTitle: "Join the gloryhole",
@@ -158,7 +158,7 @@ export default function Home() {
           style={{ backgroundColor: colors.cardBackground }}
         >
           <h3 className="text-lg font-semibold mb-2" style={{ color: colors.accent }}>
-            Visit the $BTC X Community
+            Visit the $gloryhole X Community
           </h3>
           <p className="text-sm mb-4" style={{ color: colors.cardText }}>
             {siteConfig.communityCardText}
