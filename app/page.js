@@ -1,11 +1,11 @@
 import React from "react";
 
 const siteConfig = {
-  siteName: "gloryhole Coin",
-  ctaText: "Buy $gloryhole",
-  headline: "gloryhole coin",
+  siteName: "Big Titty Coin",
+  ctaText: "Buy $BTC",
+  headline: "Big Titty Coin",
   description:
-    "You don’t need to see it to feel the pump",
+    "Big Titties: The Original Attention Economy. $BTC just formalized it.",
   colors: {
     background: "#ff7a00",
     gradientFrom: "#ff7a00",
