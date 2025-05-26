@@ -1,11 +1,11 @@
 import React from "react";
 
 const siteConfig = {
-  siteName: "Big Titty Coin",
-  ctaText: "Buy $BTC",
-  headline: "Big Titty Coin",
+  siteName: "gloryhole coin",
+  ctaText: "Buy $gloryhole",
+  headline: "gloryhole coin",
   description:
-    "Big Titties: The Original Attention Economy. $BTC just formalized it.",
+    "You don’t need to see it to feel the pump",
   colors: {
     background: "#ff7a00",
     gradientFrom: "#ff7a00",
@@ -22,38 +22,38 @@ const siteConfig = {
   },
   features: [
     {
-      title: "Community-Backed, Bra-Strapped",
-      text: "100% driven by the people. No VC funding, just vibes and verified degenerates. Think of it as Web3 with milk-based governance."
+      title: "Anonymity, Inserted",
+      text: "No faces. No names. Just tokens. Gloryhole Coin is built on the premise of pure, blind value exchange — just the way crypto was meant to be."
     },
     {
-      title: "Bridging the Gap Between DeFi and D-Cups",
-      text: "BTC is pioneering a new standard: Web3.0DD — decentralized degeneracy with double-D validation."
+      title: "Decentralized Degeneracy Protocol",
+      text: "Gloryhole Coin runs on the DDP — a trustless, faceless, and frictionless way to interact with the internet’s most honest economy: horniness."
     },
     {
-      title: "A Boob-Based Economy",
-      text: "Just Makes Sense. Satoshi would’ve loved this."
+      title: "Hole-Powered Tokenomics",
+      text: "With a deflationary supply and viral liquidity, Gloryhole Coin rewards holders who stick it in — and stay in. No rug. Just suction."
     },
     {
-      title: "Roadmap? She Has Curves, Not Directions",
-      text: "Who needs a utility roadmap when we have personality, plot, and a loyal army of internet coomers? The only thing we’re pumping is vibes (and maybe your bags)."
+      title: "Proof of Entry",
+      text: "No KYC. No fluff. Just you, your wallet, and an opening to the blockchain’s boldest ecosystem. PoE validates you with every insert."
     },
     {
-      title: "Proof of Bounce",
-      text: "Bigger the tiddy, bigger the bounce."
+      title: "No Utility. Just Pleasure.",
+      text: "Why pretend? GHC isn’t trying to change the world — it’s here to distract you from it. Finally, a token that gets you off and pays you back."
     },
     {
-      title: "Boobs > Banks",
-      text: "Why trust old dudes in suits when you can invest in the one thing the internet truly loves? Big Titty Coin puts the fun in fundamentally unserious finance."
+      title: "Tokenomics with a Happy Ending",
+      text: "Whether you're a holder, a dip-buyer, or a pump-sprinter, GHC rewards everyone who shows up and goes deep."
     }
   ],
-  communityTitle: "Join the 🍝 Cult",
-  communityDescription: "Hang with the finest big tiddy lovers in Web3.",
+  communityTitle: "Join the gloryhole",
+  communityDescription: "",
   twitterLink: "https://x.com/i/communities/1922646036138639400",
   telegramLink: "#",
-  communityCardTitle: "$BTC X Community",
+  communityCardTitle: "$gloryhole X Community",
   communityCardText: "Get unfiltered updates, share memes, and interact with a community of degenerates.",
-  communityCardButton: "Get yer tits in here 👊",
-  footerText: "© 2025 Big Titty Coin. Built different. Not financial advice — just big."
+  communityCardButton: "hop in 👊",
+  footerText: "© 2025 gloryhole coin. Built different. Not financial advice."
 };
 
 export default function Home() {
