@@ -109,7 +109,7 @@ export default function Home() {
           {siteConfig.description}
         </p>
         <a
-          href="https://pump.fun/coin/GWebayV1PvHjE6hM7tJAu2MqLtqPddxYWtBQDcc81XCm"
+          href="https://pump.fun/coin/75DVDpFoXNnmk7gUhbne2kAsx2qFPFmeUwrDcGzH9drF"
           target="_blank"
           rel="noopener noreferrer"
           className="mt-8 inline-block px-6 py-3 rounded-xl font-semibold transition hover:brightness-110"
